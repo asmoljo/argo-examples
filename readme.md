@@ -13,7 +13,7 @@ kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/st
 
 ```
 kubectl get services -n argocd
-kubectl port-forward service/argocd-server -n argocd 8081:443    (ovo treba svaki puta kad se starta argocd u drugom terminalu startati)
+kubectl port-forward service/argocd-server -n argocd 8080:443    (ovo treba svaki puta kad se starta argocd u drugom terminalu startati)
 ```
 
 ### Get Credentials
